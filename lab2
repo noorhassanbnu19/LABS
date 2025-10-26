@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rollNo = 123; 
+    float cgpa = 3.5;      
+    bool isStudent = true;    
+
+    cout << "Roll No: " << rollNo
+         << ", CGPA: " << cgpa
+         << ", Student: " << (isStudent ? "true" : "false")
+         << endl;
+
+    return 0;
+}
