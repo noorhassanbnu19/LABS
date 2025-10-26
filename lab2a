@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int firstNumber, secondNumber;
+    int sum, difference, product, quotient;
+
+    cout << "Enter two numbers: ";
+    cin >> firstNumber >> secondNumber;
+
+    sum = firstNumber + secondNumber;
+    difference = firstNumber - secondNumber;
+    product = firstNumber * secondNumber;
+    quotient = firstNumber / secondNumber;  // Assume secondNumber is not zero
+
+    cout << "Sum is: " << sum << endl;
+    cout << "Difference is: " << difference << endl;
+    cout << "Product is: " << product << endl;
+    cout << "Quotient is: " << quotient << endl;
+
+    return 0;
+}
